@@ -1,0 +1,42 @@
+.img{
+    width:60px;
+    height:60px;
+    margin-right:2%;
+    margin-top: 5px;
+}
+
+/** Colors for bootstrap override**/
+.bg-white {
+    background: #fff;
+}
+.fg-black {
+    color : #000;
+}
+.bg-green {
+background: green;
+}
+.fg-white{
+color:white;
+}
+.row-margin{
+    margin-top: 3%;
+}
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+.width{
+    width: 100vw;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+}
+.footer-color{
+    background-color: gray;
+    border-top: 4px solid #5bc0de;
+    height: 10%;
+    
+}
+.link-color{
+    color: #777777;
+    
+}

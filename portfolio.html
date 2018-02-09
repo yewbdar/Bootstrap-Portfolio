@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+   
+    <style>
+        .body-img {
+            /* The image used */
+            background-image: url("images/ep_naturalwhite.png");
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-repeat: repeat;
+
+        }
+
+        .img {
+            width: 60px;
+            height: 60px;
+            margin-right: 2%;
+            margin-top: 5px;
+        }
+
+        /** Colors for bootstrap override**/
+
+        .bg-white {
+            background: #fff;
+        }
+
+        .fg-black {
+            color: #000;
+        }
+
+        .bg-green {
+            background: green;
+        }
+
+        .fg-white {
+            color: white;
+        }
+
+        .row-margin-top {
+            margin-top: 3%;
+        }
+
+        .navbar-custom {
+            color: #FFFFFF;
+            background-color: #FFFFFF;
+        }
+
+        .width {
+            width: 100vw;
+            background-color: #FFFFFF;
+            border: 1px solid black;
+        }
+
+        .footer-color {
+            background-color: gray;
+            border-top: 4px solid #5bc0de;
+            height: 10%;
+
+        }
+
+        .link-color {
+            color: #777777;
+
+        }
+        .image-name{
+          color: white;
+          width: 86%;
+        }
+    </style>
+</head>
+
+<body class="body-img">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 ">
+                <nav class="navbar navbar-toggleable-md  navbar-custom">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h1 class="navbar-brand bg-info  w-20 p-3 h-100 h1">Yewbdar Girma</h1>
+
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+
+                        <ul class="navbar-nav ml-auto fg-black text-muted">
+                            <li class="nav-item active ">
+                                <a class="nav-link link-color" href="index.html">About Me
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link link-color" href="portfolio.html">Portifolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-color" href="contact.html">Contact Me</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+        <div class="row row-margin-top">
+            <div class="col-lg-7   ">
+                <section class="aboutme bg-white h-100 p-4">
+                    <h1 class="text-info h2">Portfolio</h1>
+                    <hr class="horazontal-line">
+                   
+                    <div class="row">
+
+                        <div class="image-and-name col-lg-6">
+                            <img class="image1" src="images/bigsnowday.jpg" />
+                            <div class="image-name bg-info p-2"><p>Cute dog </p></div>
+                         </div>
+                         
+                         <div class="image-and-name col-lg-6">
+                             <img class="image1" src="images/cutedog.jpg" />
+                             <div class="image-name bg-info p-2"><p>Big snow day</p></div>
+                         </div>
+                         
+                         <div class="image-and-name col-lg-6">
+                             <img class="image1" src="images/FBIsafehouse.jpg" />
+                             <div class="image-name bg-info p-2 "><p>FBI safe house</p></div>
+                          </div>
+                         
+                         
+                          <div class="image-and-name col-lg-6">
+                            <img class="image1" src="images/musicon.jpg" />
+                            <div class="image-name bg-info p-2 w-20"><p>Music on</p></div>
+                         </div>
+                         
+                         <div class="image-and-name col-lg-6">
+                             <img class="image1" src="images/photowalk.jpg" />
+                              <div class="image-name bg-info p-2"><p>Photo walk</p></div>
+                         </div>
+              </div>
+                </section>
+            </div>
+            <div class="col-lg-4">
+                <div class="p-lg-5 d-inline-block bg-white ">
+
+                    <h5 class="text-info">Connect with Me</h5>
+                    <hr class="border-secondary">
+                    <ul class="media-list list-unstyled list-inline">
+
+                        <li class="list-inline-item">
+                            <a class="media-link" href="https://www.linkedin.com/in/yewbdar-abera/" target="_blank">
+                                <img class="img d-lg-inline" src="images/linkedin.png" />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="media-link" href="https://github.com/yewbdar" target="_blank">
+                                <img class="img d-lg-inline" src="images/github.png" />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="media-link" href="https://stackoverflow.com/" target="_blank">
+                                <img class="img d-lg-inline" src="images/stackoverflow.png" />
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
